@@ -1,0 +1,151 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+.main{
+  background-image: url('image/1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position:center top;
+}
+
+.parentbox{
+  
+  background-color: whitesmoke;
+  width:600px;
+  height: 800px;
+  position:relative;
+  top:600px;
+  left:335px;
+  opacity:0.5;
+  border-left-style: groove;
+  border-right-style:groove;
+  border-radius: 50px;
+  border-width:10px;
+  
+}
+ 
+ .signin{
+  font-size: 80px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  color:#4d0039;
+  font-weight: bold;
+  position:absolute;
+  top:740px;
+  left:515px;
+  text-shadow: blue 100px;
+  
+ }
+
+  .password,.email{
+    width: 200px;
+    position:relative;
+    top:100px;
+    left:545px;
+    display: flex;
+    margin:5px;
+    height: 40px
+    
+  }
+  
+  .sub{
+   height:30px;
+   width: 60px;
+   position:absolute;
+   left:618px;
+   bottom:650px
+   
+   
+  }
+  
+  
+  .sub:hover{
+    background-color: lightpink;
+   
+  }
+  
+  .forgotp{
+    text-decoration: none;
+    font-family: georgia;
+    position:absolute;
+    left:587px;
+    bottom:620px;
+    font-size: 15px;
+    
+  }
+  
+  .shortc{
+    position:absolute;
+    left:375px;
+    width:380px;
+    height: 35px;
+    top:1350px;
+    border-radius: 30px
+    
+  }
+  
+  .ashortc{
+    text-decoration: none;
+    font-size:30px;
+    font-weight: bold;
+    text-align: justify;
+    color: #4d0039;
+    white-space: pre;
+  }
+  .clickhere{
+    text-decoration: underline;
+  }
+  
+  .navbox{
+    
+    display:flex;
+    width:500px;
+    position:relative;
+    bottom:750px;
+    left:680px;
+    
+  }
+  
+  .txtnav{
+    margin:30px;
+    font-size: 30px;
+    text-decoration:underline;
+    color: whitesmoke;
+    
+    
+  }
+  
+  .navmain{
+    background-color:#4d0039;
+    width:1300px;
+    height: 150px;
+    position:absolute;
+    z-index:-1;
+    top:0px;
+  }
+  .pagination {
+  text-align: center;
+}
+.pagination a{
+  text-decoration: none;
+  padding:10px;
+  position:relative;
+  top:50px;
+  display: inline-block;
+}
+
+.pagination a.tive{
+  background-color: darkcyan;
+  border-radius: 5px;
+}
+ a{
+   font-weight:bold;
+   color: black;
+ }
+ .pagination a:hover:not(.active){
+   background-color: lightgray;
+   border-radius:5px;
+ }
